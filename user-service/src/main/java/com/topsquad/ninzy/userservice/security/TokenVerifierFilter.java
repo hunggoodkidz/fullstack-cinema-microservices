@@ -31,7 +31,7 @@ public class TokenVerifierFilter extends OncePerRequestFilter {
 
         if(Strings.hasText(token) && token.startsWith("Bearer ")){
             token = token.replace("Bearer ", "");
-            String key = "subscribe_to_my_only_fans_UwU";
+            String key = "subscribe_to_my_only_fans_UwU_I_love_you_xo_xo_xo_xo_xo_xo_xo_xo_babe_<3";
             try {
                 Jws<Claims> jwsClaims = Jwts.parser()
                         .setSigningKey(Keys.hmacShaKeyFor(key.getBytes()))
