@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: movieService
+    name: movie-service
   # PostgreSql Properties
   datasource:
     username: 'postgres'
@@ -28,7 +28,7 @@ spring:
         spring:
           json:
             type:
-              mapping: event:com.kaankaplan.movieService.entity.dto.EmailMessageKafkaDto
+              mapping: event:com.topsquad.ninzy.movie-service.entity.dto.EmailMessageKafkaDto
     topic:
       name: email_topics
   # Zipkin Properties

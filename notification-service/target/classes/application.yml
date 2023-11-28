@@ -40,7 +40,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: cyborgmachinegun123@gmail.com # Please change your email
-    password: 'chuatehacam123'    # Please change your password
+    password: '********'    # Please change your password
     protocol: smtp
     test-connection: false
     properties:
