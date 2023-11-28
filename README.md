@@ -10,10 +10,10 @@ CinemaHub serves as an all-encompassing platform for movie lovers, providing a u
 | Notification Service | Sends out timely notifications with email sender as Kafka| A REST API built using Python FastAPI and SQLAlchamey used PostreSQL   
 | Discovery Server (Eureka Server) | Deployed Eureka Server for service discovery, registration, and load balancing in the microservices ecosystem.
 | API Gateway| Developed an API Gateway to centralize request management, routing, and load balancing for microservices. 
-| Cinema-UI| Ongoing on developing....
+| Cinema-UI| A client UI designed for website to integrated from Back-end RestAPI
 ## Tech Stack
 
-**Front-end:** React
+**Front-end:** React ,JavaScript, Redux, 
 
 **Back-end** Java, Spring Cloud, Spring Data Jpa, Spring Security,Jwt, Lombok, Apache Kafka,Java Mail Sender,Zipkin,Resilience4j,PostgreSql,MongoDB,Redis,Docker
 
